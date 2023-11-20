@@ -1,0 +1,115 @@
+body{
+    font-family:robotoR , robotoB, robotoM;
+    margin: 0;
+   background-color: #040303;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+@font-face {
+    font-family: robotoR;
+    src: url(/FajarrudinV2/font/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: robotoB;
+    src: url(/FajarrudinV2/font/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: robotoM;
+    src: url(/FajarrudinV2/font/Roboto-Medium.ttf);
+}
+
+.top-cnt{
+    display: flex;
+    justify-content: end;
+    margin: 50px 140px 0px 0px;
+    height: 50px;
+}
+.link-special{
+    color: #872341;
+    font-weight: bold;
+    font-size: 2.1em;
+    margin: 0px 17px 0px 17px;
+    transition-duration: 0.15s;
+    text-underline-offset: 10px;
+}
+.top-logo{
+    display: flex;
+    margin: 40px 0px 0px 50px;
+}
+.logo-ttl{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 2.2em;
+    margin: 0px;
+    align-items: center;
+    margin: 10px 0px 0px 20px;
+}
+.top{
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(12, 115px);
+    grid-template-rows: 1fr;
+    grid-column-gap: 22px;
+    grid-row-gap: 0px;
+        width: 75%;
+        height: 4200px;
+       
+}
+.border{
+    width: auto;
+    height: 4250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2.1em;
+    margin: 0px 17px 0px 17px;
+    transition-duration: 0.15s;
+    text-underline-offset: 10px;
+}
+.link:hover{
+    color: #872341;
+    text-decoration: underline;
+}
+.pfp{
+   
+    width: 62px;
+    height: 62px;
+    border-radius: 100%;
+    padding: 3px;
+    position: relative;
+    margin: 0px;
+    
+}
+h1{
+    color: #ffffff;
+}
+.left-top{
+    display: flex;
+    position: relative;
+    top: 0px;
+    left: 10px;
+}
+.ttl{
+    color: #872341;
+    font-weight: bold;
+    font-size: 3.2em;
+    margin: 0px;
+    width: 800px;
+}
+.hero-ttl{
+    width: 800px;
+    font-size: 3.5em;
+    margin-top: 10px;
+}

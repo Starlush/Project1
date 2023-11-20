@@ -1,0 +1,393 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url(/Fajaruddin/imagess/vibrant-fluid-gradient-background-with-curvy-shapes_1017-32108.avif);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.top{
+    width: auto;
+    height: 100px;
+    background-color: rgb(255, 255, 255,0.28);
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(25, 100px);
+    grid-template-rows: repeat(50,100px);
+    width: auto;
+    height: 4200px;   
+}
+
+.intro{
+    width: 600px;
+    height: 300px;
+    background-color: rgb(255, 255, 255,0.30);
+    border: 8px 8px 12px rgb(255, 255, 255) solid;
+    border-radius:75px ;
+    grid-row: 3/5;
+    grid-column: 4/7;
+    flex-direction: column;  
+    cursor: pointer;
+    border: 3px rgb(255, 255, 255,0.1) solid;
+}
+
+.intro:hover{
+    border: 3px rgb(255, 255, 255) solid;
+}
+
+.pfp{
+    grid-row: 2/4 ;
+    grid-column: 2/4;
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    border: 5px solid white;
+    padding: 3px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.text{
+    font-size: 1.6em;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 340px;
+    grid-row: 2/4;
+    grid-column: 4/8;
+    margin: 0;
+    position: absolute;
+    top: 232px;
+    left: 490px;
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(255, 255, 255,0.9);
+    font-size: 2.1em;
+    padding-right: 2em;
+    padding-left: 2em;
+    text-align: center;
+    justify-content: center;
+    transition-duration: 1s;
+    text-decoration:3px underline rgb(255, 255, 255,0.38);
+    text-underline-offset: 5px;
+    transition-duration: 0.25s;
+}
+
+.link:hover{
+    font-size: 2.3em;
+    opacity: 70%;
+}
+
+.homee{
+    border: 4px  rgb(255, 255, 255,0.55) solid;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.link-border{
+    border: 4px  rgb(255, 255, 255,0) solid;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;  
+    border-radius: 50px;
+}
+.link-border:hover{
+    border: 4px  rgb(255, 255, 255) solid;
+    text-decoration: none;
+}
+.box-2{
+    width: 1000px;
+    height: 800px;
+    grid-row: 3/10;
+    grid-column: 12/18;
+    background-color: rgb(255, 255, 255,0.30);
+    border: 8px 8px 12px rgb(255, 255, 255) solid;
+    border-radius:75px ;
+    cursor: pointer;
+    display: flex;
+    border: 3px rgb(255, 255, 255,0.1) solid;
+    flex-direction: column;
+    padding-left:50px ;
+    padding-right: 50px;
+}
+
+
+.title{
+    color: rgb(255, 255, 255);
+    font-size: 1.65em;
+    text-decoration:4px underline rgb(255, 255, 255,0.39);
+    text-underline-offset: 8px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.motivate{
+    color: rgb(255, 255, 255);
+    font-size: 1.6em;
+    text-align: left;
+    margin: 10px;
+}
+
+.box-3{
+    width: 800px;
+    height: 700px;
+    grid-row: 7/12;
+    grid-column: 2/9;
+    background-color: rgb(255, 255, 255,0.30);
+    border: 8px 8px 12px rgb(255, 255, 255) solid;
+    border-radius:75px ;
+    cursor: pointer;
+    display: flex;
+    border: 3px rgb(255, 255, 255,0.1) solid;
+    flex-direction: column;
+    padding-left:50px ;
+    padding-right: 50px;
+}
+
+
+
+.motivate-1{
+    color: rgb(255, 255, 255);
+    font-size: 1.6em;
+    text-align: left;
+    margin: 10px;
+    margin-top: 30px;
+}
+
+.box-3-li{
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    text-align: left;
+    margin: 10px;
+}
+
+.box-3-ul{
+    margin-bottom: 0px;
+}
+
+.motivate-1-1{
+    color: rgb(255, 255, 255);
+    font-size: 1.6em;
+    text-align: left;
+    margin-top: 0px;    
+}
+
+.box-4{
+    width: 1000px;
+    height: 550px;
+    grid-row: 12/20;
+    grid-column: 14/25;
+    background-color: rgb(255, 255, 255,0.30);
+    border: 8px 8px 12px rgb(255, 255, 255) solid;
+    border-radius:75px ;
+    cursor: pointer;
+    display: flex;
+    border: 3px rgb(255, 255, 255,0.1) solid;
+    flex-direction: column;
+    padding-left:50px ;
+    padding-right: 50px;
+}
+
+
+
+.box-5{
+    width: 1000px;
+    height: 1650px;
+    grid-row: 15/20;
+    grid-column: 2/9;
+    background-color: rgb(255, 255, 255,0.30);
+    border: 8px 8px 12px rgb(255, 255, 255) solid;
+    border-radius:75px ;
+    cursor: pointer;
+    display: flex;
+    border: 3px rgb(255, 255, 255,0.1) solid;
+    flex-direction: column;
+    padding-left:50px ;
+    padding-right: 50px;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.box-1-link{
+    width: 200px;
+    height: 50px;
+    border-radius: 100px;
+    border: 3px rgb(255, 255, 255,0.25) solid;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+   transition-duration: 0.15s;
+}
+
+a{
+    margin: 0;
+}
+
+.box-1-link:hover{
+    border: 3px rgb(255, 255, 255) solid;
+    font-size: 1.1em;
+}
+
+a p{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: 8px;
+}
+
+.box-6{
+    width: 800px;
+    height: 580px;
+    grid-row: 18/20;
+    grid-column: 15/22;
+    background-color: rgb(255, 255, 255,0.30);
+    border: 8px 8px 12px rgb(255, 255, 255) solid;
+    border-radius:75px ;
+    cursor: pointer;
+    display: flex;
+    border: 3px rgb(255, 255, 255,0.1) solid;
+    flex-direction: column;
+    padding-left:50px ;
+    padding-right: 50px;
+    align-items: center;
+}
+
+
+.motivate-1-6{
+    font-size: 1.68em;
+    color: rgb(255, 255, 255);
+    width: 800px;
+    padding: 1.1em;
+}
+
+.po{
+    text-decoration:3px underline rgb(255, 255, 255,0.75);
+    text-underline-offset: 6px;
+}
+
+    .box-6{
+        width: 800px;
+        height: 580px;
+        grid-row: 18/20;
+        grid-column: 15/22;
+        background-color: rgb(255, 255, 255,0.30);
+        border: 8px 8px 12px rgb(255, 255, 255) solid;
+        border-radius:75px ;
+        cursor: pointer;
+        display: flex;
+        border: 3px rgb(255, 255, 255,0.1) solid;
+        flex-direction: column;
+        padding-left:50px ;
+        padding-right: 50px;
+        align-items: center;
+    }
+
+.box-7{
+    width: 1000px;
+    height: 1200px;
+    grid-row: 25/30;
+    grid-column: 14/24;
+    background-color: rgb(255, 255, 255,0.30);
+    border: 8px 8px 12px rgb(255, 255, 255) solid;
+    border-radius:75px ;
+    cursor: pointer;
+    display: flex;
+    border: 3px rgb(255, 255, 255,0.1) solid;
+    flex-direction: column;
+    padding-left:50px ;
+    padding-right: 50px;
+    align-items: center;
+}
+
+.box{
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 8px 8px 12px rgb(255, 255, 255) solid;
+    border-radius:75px ;
+    cursor: pointer;
+    display: flex;
+    border: 3px rgb(255, 255, 255,0.1) solid;
+    flex-direction: column;
+    padding-left:50px ;
+    padding-right: 50px;
+    align-items: center;
+}
+.box-hover:hover{
+    border: 3px rgb(255, 255, 255) solid;
+
+}
+
+.p-7{
+    font-size: 1.68em;
+    color: rgb(255, 255, 255);
+    width: 900px;
+    padding: 1.1em;
+}
+.box-8{
+    width: 1000px;
+    height: 1000px;
+    grid-row: 32/40;
+    grid-column: 2/20;
+}
+
+.move-to{
+    grid-row: 38/40;
+    grid-column: 15/24;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.to-da{
+    display: flex;
+   
+}
+.mv{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 1.4em;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.to-da a{
+    text-align: center;
+    align-items: center;
+}
+.mv p{
+    text-align: center;
+    align-items: center;
+}
+.to-to{
+    font-size: 4em;
+    color: rgb(255, 255, 255);
+}
+.mv1{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(255, 255, 255,0.15);
+}
+.mv2{
+    width: 200px;
+    height: 100px;
+}
